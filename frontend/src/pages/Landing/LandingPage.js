@@ -15,7 +15,11 @@ const LandingPage = () => {
           </div>
           <div className="buttonContainer">
             <a href="/login">
-              <Button size="lg" className="landingbutton">
+              <Button
+                size="lg"
+                className="landingbutton"
+                style={{ minWidth: "150px" }}
+              >
                 Login
               </Button>
             </a>
@@ -24,6 +28,7 @@ const LandingPage = () => {
                 size="lg"
                 className="landingbutton"
                 variant="outline-primary"
+                style={{ minWidth: "150px" }}
               >
                 Signup
               </Button>

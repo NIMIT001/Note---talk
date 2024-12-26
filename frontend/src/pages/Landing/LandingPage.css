@@ -1,12 +1,12 @@
 .title {
-  font-size: 60px;
+  font-size: 20px;
 }
 .subtitle {
   font-size: 25px;
   padding-top: 10px;
 }
 .intro-text {
-  /* margin-top: -00px; */
+  margin-top: 10px;
   width: 100%;
   text-align: center;
 }
@@ -26,44 +26,59 @@
 }
 
 .landingbutton {
-  width: 200px;
+  width: 100px;
   height: 5px;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px; /* Adjust padding for better size */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Adjust font size as needed */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px; /* Add margin for better spacing */
 }
 
 @media only screen and (min-width: 1200px) {
   .buttonContainer {
-    padding: 0 200px;
+    padding: 20px 20px;
   }
   .title {
-    padding: 0 100px;
+    padding: 10px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .title {
     font-size: 15px;
-    margin-top: 300px;
+    margin-top: 200px; /* Adjust this value as needed */
     text-align: center;
   }
   .intro-text {
-    margin-top: -300px;
+    margin-top: 10px; /* Adjust this value as needed */
     width: 100%;
     text-align: center;
   }
   .landingbutton {
-    width: 100px;
-    height: 2px;
+    width: 0px;
+    height: 1px;
   }
   .subtitle {
     font-size: 10px;
   }
-  .landingbutton {
-    width: -110px;
-    height: -5px;
+  button {
+    padding: 3px 6px; /* Smaller padding for very small screens */
+    font-size: 10px; /* Smaller text size for responsiveness */
+    width: 60px; /* Optional: narrower button for small screens */
   }
   .buttonContainer {
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 100px 10px;
+    margin-top: 10px;
+
+    justify-content: center;
   }
 }
